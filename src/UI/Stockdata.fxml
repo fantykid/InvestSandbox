@@ -6,8 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0" prefWidth="1239.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0" prefWidth="1239.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.StockdataController">
    <children>
       <Button layoutX="26.0" layoutY="32.0" mnemonicParsing="false" text="Button" />
       <Button layoutX="1164.0" layoutY="32.0" mnemonicParsing="false" text="Button" />
@@ -17,7 +16,7 @@
          </font>
       </Text>
       <Label fx:id="StockName" layoutX="165.0" layoutY="146.0" text="Label" />
-      <Label fx:id="date" layoutX="398.0" layoutY="146.0" text="Label" />
+      <Label fx:id="StockDate" layoutX="398.0" layoutY="146.0" text="Label" />
       <Label layoutX="165.0" layoutY="600.0" text="Label" />
       <Button layoutX="934.0" layoutY="596.0" mnemonicParsing="false" text="Button" />
    </children>

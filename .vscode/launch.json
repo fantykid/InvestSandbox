@@ -8,21 +8,7 @@
             "type": "java",
             "name": "test",
             "request": "launch",
-            "mainClass": "test.test",
-            "projectName": "InvestSandbox_c4146ec9"
-        },
-        {
-            "type": "java",
-            "name": "HelloWorld",
-            "request": "launch",
-            "mainClass": "HelloWorld",
-            "projectName": "InvestSandbox_c4146ec9"
-        },
-        {
-            "type": "java",
-            "name": "test",
-            "request": "launch",
-            "mainClass": "test",
+            "mainClass": "UI.test",
             "projectName": "InvestSandbox_c4146ec9",
             "vmArgs": "--module-path \"C:/JavaFX/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         },

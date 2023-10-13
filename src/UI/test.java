@@ -1,7 +1,4 @@
-//import javafx.scene.image.Image;
-//import javafx.scene.paint.Color;
-//import javafx.scene.Node;
-
+package UI;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 //import javafx.scene.Group;
@@ -16,7 +13,7 @@ public class test extends Application {
 
     public void start(Stage stage ) throws Exception {
         try{
-            Parent root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("SelectStock.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
